@@ -1,13 +1,53 @@
 body {
   font-family: Arial, sans-serif;
   background-color: rgba(32, 27, 44, 1);
+  margin: 0;
+  padding: 60px;
 }
 
 h1 {
   text-align: center;
+  top: 10px;
+  transform: translateX(0%);
+  z-index: 999;
+  padding: 10px 20px;
+  background-color: rgba(255, 0, 0, 0.8);
+  border-radius: 8px;
+  color: #000;
+  animation: blink 1s linear infinite;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 20px;
+    padding: 6px 12px;
+  }
+}
+
+h2 {
+  text-align: center;
   color: #f0f0f0;
-  font-size: 2.5rem;
-  padding: 20px;
+  font-size: 60px;
+  padding: 80px;
 }
 
 .rdr {
@@ -59,10 +99,10 @@ h1 {
 }
 
 .texto1 {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
-  color: #000000;
-  background-color: #dcd0ff;
+  color: #333;
+  background-color: #f9f9f9;
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -73,7 +113,7 @@ h1 {
   background-color: #eef7ff;
 }
 .texto2 {
-  font-size: 35px;
+  font-size: 15px;
   font-weight: bold;
   color: #333;
   background-color: #f9f9f9;
@@ -87,7 +127,7 @@ h1 {
   background-color: #eef7ff;
 }
 .texto3 {
-  font-size: 35px;
+  font-size: 15px;
   font-weight: bold;
   color: #333;
   background-color: #f9f9f9;
@@ -101,7 +141,7 @@ h1 {
   background-color: #eef7ff;
 }
 .texto4 {
-  font-size: 35px;
+  font-size: 15px;
   font-weight: bold;
   color: #333;
   background-color: #f9f9f9;
@@ -113,16 +153,4 @@ h1 {
 .texto4:hover {
   border-color: #0056b3;
   background-color: #eef7ff;
-}
-
-.gamenews {
-  position: fixed;
-  top: 10px;
-  left: 45%;
-  transform: translateX(-45%);
-  z-index: 999;
-  padding: 10px 20px;
-  border-color: rgba(255, 0, 0, 0.8);
-  border-radius: 8px;
-  color: #000;
 }
