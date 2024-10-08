@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(32, 27, 44, 1);
+}
+
+h1 {
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 2.5rem;
+  padding: 20px;
+}
+
+.rdr {
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+@media (max-widht: 768px) {
+  .rdr {
+    height: 60vh;
+  }
+}
+@media (max-widht: 480px) {
+  .rdr {
+    height: 50vh;
+  }
+}
+
+.rdr2 {
+  background-image: url(../img/rdr2.jpg);
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  background-repeat: no-repeat;
+}
+@media (max-widht: 768px) {
+  .rdr2 {
+    height: 60vh;
+  }
+}
+@media (max-widht: 480px) {
+  .rdr2 {
+    height: 50vh;
+  }
+}
+.título {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.texto1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #dcd0ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+.texto1:hover {
+  border-color: #0056b3;
+  background-color: #eef7ff;
+}
+.texto2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+.texto2:hover {
+  border-color: #0056b3;
+  background-color: #eef7ff;
+}
+.texto3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+.texto3:hover {
+  border-color: #0056b3;
+  background-color: #eef7ff;
+}
+.texto4 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+.texto4:hover {
+  border-color: #0056b3;
+  background-color: #eef7ff;
+}
+
+.gamenews {
+  position: fixed;
+  top: 10px;
+  left: 45%;
+  transform: translateX(-45%);
+  z-index: 999;
+  padding: 10px 20px;
+  border-color: rgba(255, 0, 0, 0.8);
+  border-radius: 8px;
+  color: #000;
+}
