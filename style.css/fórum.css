@@ -1,0 +1,71 @@
+body{
+    background-image: url(../img/desktop-wallpaper-login-screen-backgrounds-761252-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #201b2c;
+
+}
+
+.container{
+    border: 1px solid black;
+    background-color: #fff;
+    width: 50rem;
+    height: 77rem;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.container h1{
+text-shadow: 2px 2px 2px red;
+font-size: 60px;
+}
+
+.container h2 {
+    color: cyan;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgb(46, 25, 99);
+  
+}
+
+
+.container h3{
+    color: cyan;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 12px;
+   background-color: rgb(46, 25, 99);
+}
+
+.container p{
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+form{
+
+    display: inline-block;
+    padding-left: 12px;
+    
+}
+
+
+.int{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+   margin-bottom: 10px;
+    width: 90%;
+    height: 100px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}

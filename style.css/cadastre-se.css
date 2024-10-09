@@ -1,4 +1,19 @@
-.main-Cadastrar {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #201b2c;
+    margin: 0;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+
+/* usando display flex na class main-login colocamos os itens que antes estavam sobrepostos como lado a lado */
+.main-cadastrar {
     width: 100vw;
     height: 100vh;
     background: #201b2c;
@@ -7,7 +22,7 @@
     align-items: center;
 }
 
-.left-Cadastrar{
+.left-cadas {
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -16,18 +31,16 @@
     flex-direction: column;
 }
 
-.left-Cadastrar h1 {
+.left-cadas h1 {
     color: cyan;
     font-size: 3vw;
 }
 
-.left-Cadastrar-img {
+.left-cadas-img {
     width: 35vw;
 }
 
-
-
-.right-cadastrar-se {
+.right-cad {
     width: 50vw;
     height: 100vh;
     background: #201b2c;
@@ -49,8 +62,10 @@
     /* Box-shadow: eixo x, y, espalhar e cor */
 }
 
-.card-cadastrar-se h1{
-    color: cyan;
+.card-cadastrar-se {
+    color:#fff;
+    font-weight: 800;
+    margin: 0;
 }
 
 .textfield {
@@ -62,7 +77,7 @@
     margin: 10px 0px;
 }
 
-.textfield>input {
+.textfield input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -77,17 +92,16 @@
     /* box-sizing: a div filho não pode ultrapassar a div pai, então ele limita sem atravessar como antes de aplicá-lo */
 }
 
-.textfield>label {
+.textfield label {
     color: #f0ffffde;
     margin-bottom: 10px;
 }
 
-.textfield>input::placeholder {
+.textfield input::placeholder {
     color: #f0ffffde;
 }
 
-
-.btn-cadastrar {
+.btn-cadastro {
     width: 100%;
     padding: 15px 0px;
     border: none;
@@ -105,12 +119,10 @@
     text-align: center;
 }
 
-.btn-cadastrar:hover,
-.botao-git:hover {
+.btn-cadastro:hover,
+.botao-cadastro:hover {
     transform: scale(0.95);
     transition: all 1s;
 }
 
-.botao-git {
-    margin-top: 25px;
-}
+

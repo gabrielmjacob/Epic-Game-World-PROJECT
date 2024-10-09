@@ -11,7 +11,7 @@ h1 {
   transform: translateX(0%);
   z-index: 999;
   padding: 10px 20px;
-  background-color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(85, 21, 131, 0.8);
   border-radius: 8px;
   color: #000;
   animation: blink 1s linear infinite;
@@ -51,13 +51,22 @@ h2 {
 }
 
 .rdr {
+  display: grid;
+  place-items: center;
   justify-content: center;
   align-items: center;
   background-position: center;
   background-size: cover;
-  height: 80vh;
-  display: flex;
+  height: 18rem;
   background-repeat: no-repeat;
+  overflow: hidden;
+}
+.rdr {
+  transition: transform 0.3s ease;
+}
+.rdr:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 @media (max-widht: 768px) {
